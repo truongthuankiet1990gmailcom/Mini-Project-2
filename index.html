@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel = "stylesheet" href="assets/css/style.css">
     <link rel = "stylesheet" href = "assets/css/base.css">
+    <link
+      rel="stylesheet"
+      href="https://wowjs.uk/css/libs/animate.css"
+    />
     <title>Document</title>
 </head>
 <body>
@@ -80,7 +84,7 @@
         <div class = "container">
             <div class = "row">
                 <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div class = "inner-item">
+                    <div class = "inner-item wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
                         <div class = "icon">
                             <img src = "assets/images/featured-item-01.png">
                         </div>
@@ -94,7 +98,7 @@
                 </div>
 
                 <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div class = "inner-item">
+                    <div class = "inner-item wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
                         <div class = "icon">
                             <img src = "assets/images/featured-item-01.png">
                         </div>
@@ -108,7 +112,7 @@
                 </div>
 
                 <div class = "col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
-                    <div class = "inner-item">
+                    <div class = "inner-item wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="0.6s">
                         <div class = "icon">
                             <img src = "assets/images/featured-item-01.png">
                         </div>
@@ -511,5 +515,9 @@
             </div>
         </div>
     </div>
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>
