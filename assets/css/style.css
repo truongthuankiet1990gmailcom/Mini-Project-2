@@ -39,6 +39,7 @@
   text-decoration: none;}
 
   .header .inner-wrap {
+    position:relative;
     background: #fff;
     display: flex;
     justify-content: space-between;
@@ -83,11 +84,16 @@
     .header .inner-menu {
       display: none;
     }
-  
+    .header .inner-menu ul li{
+        margin-left:0;
+    }
     .header .inner-menu-mobi {
-      display: inline-block;
-      font-size: 28px;
-      cursor: pointer;
+        display: block;
+        height: 35px;
+        top: 27px;
+        right: 15px;
+        position: absolute;
+        cursor: pointer;
     }
   }
 /* header */
